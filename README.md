@@ -15,29 +15,29 @@ Possible Solutions:
 - If it's too complex, no one will play it.
   - which is a better game - chess or flappy bird? (A crude crude comparison, but a serious epistemological consideration)
 - Stick with the original classic game as closely as possible
-  ### Payment process:
-  [+] Bid _is_ payment: - bids are public anyway. why not.
-  [] Staking -  use in-contract proof of stake to validate participants, with separate methods for staking 
-  ### Tie handling:
-  [+] Higher bid wins.
-  ### Game duration:
-  [+] By time? - presumes that the game will be popular - needs to be popular in order to work. - simplest. - Extension?:
-  [] 2 hours from the last bid  
-   - would probably just cause an infinite war of attrition
-  [-] By bid count? - individuals could rig the game by taking up majority of bets (if unique bids)
-  [-] By pot size - game ends once pot reaches certain size
-  [-] Dynamic - game ends once pot reaches 100x the average - too complex
-  [-] Dynamic - Has worked well with FOMO3D
-  ### Target bid:
-  [+] 2/3 the average? - deviates to zero - sticks to original
-  [-] Double the average? - deviates to ethereum total supply || bid cap
-  ### Bid attributes:
-  [+] Unique? - discourages spamming
-  [-] Capped range? e.g. 0<=>100 - if unique and capped, the game is halted after 100 bids
-  [-] Dynamic capped range? e.g. 0<==>Average Bid - interesting, but possibly too complex
-  [+] Uncapped? e.g. 0< - possibly gives upper hand to rich people
-  [-] Updateable? - decreases the effectiveness of bid-spamming
+### Payment process:
+- [x] Bid _is_ payment: - bids are public anyway. why not.
+- [ ] Staking -  use in-contract proof of stake to validate participants, with separate methods for staking 
+### Tie handling:
+- [x] Higher bid wins.
+### Game duration:
+- [x] By time? - presumes that the game will be popular - needs to be popular in order to work. - simplest. - Extension?:
+- [ ] 2 hours from the last bid  
+- would probably just cause an infinite war of attrition
+- [ ] By bid count? - individuals could rig the game by taking up majority of bets (if unique bids)
+- [ ] By pot size - game ends once pot reaches certain size
+- [ ] Dynamic - game ends once pot reaches 100x the average - too complex
+- [ ] Dynamic - Has worked well with FOMO3D
+### Target bid:
+- [x] 2/3 the average? - deviates to zero - sticks to original
+- [ ] Double the average? - deviates to ethereum total supply || bid cap
+### Bid attributes:
+- [x] Unique? - discourages spamming
+- [ ] Capped range? e.g. 0<=>100 - if unique and capped, the game is halted after 100 bids
+- [ ] Dynamic capped range? e.g. 0<==>Average Bid - interesting, but possibly too complex
+- [+] Uncapped? e.g. 0< - possibly gives upper hand to rich people
+- [ ] Updateable? - decreases the effectiveness of bid-spamming
 ###  Fees?:
-  [+] percentage of pot
+- [x] percentage of pot
 ###  Winner Calculation:
-  [-] remove lowest & highest bids?
+- [ ] remove lowest & highest bids?
