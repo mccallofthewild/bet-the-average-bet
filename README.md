@@ -1,5 +1,5 @@
 # Bet The Average Bet 
-The goal of this project is to implement Game Theory's classic ["Guess 2/3 of the Average"](https://en.wikipedia.org/wiki/Guess_2/3_of_the_average) on Ethereum as a smart contract. I wrote this code in October 2018, inspired in part by [FOMO3D](https://fomo3d.hostedwiki.co/pages/Fomo3D%20Explained) and in part by the Yale University Game Theory course 
+The goal of this project is to implement Game Theory's classic ["Guess 2/3 of the Average"](https://en.wikipedia.org/wiki/Guess_2/3_of_the_average) on Ethereum as a smart contract. I wrote this code in October 2018, inspired by [FOMO3D](https://fomo3d.hostedwiki.co/pages/Fomo3D%20Explained) and the Yale University Game Theory course in which I was first introduced to the game.
 
 In short, it is a Solidity Smart Contract which takes bids and, every X minutes, sends the entire pot to the person who bid the closest to the 2/3 average bid.
 
