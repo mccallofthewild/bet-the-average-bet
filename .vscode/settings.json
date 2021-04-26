@@ -1,0 +1,24 @@
+{
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "node_modules",
+  "solidity.soliumRules": {
+    "no-block-members": false,
+    "imports-on-top": 0,
+    "variable-declarations": 0,
+    "indentation": [
+      "error",
+      4
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ]
+  },
+  "eslint.enable": false,
+  "javascript.validate.enable": false,
+  "solidity.enabledAsYouTypeCompilationErrorCheck": true,
+  "solidity.linter": "solium",
+  // "solidity.packageDefaultDependeciesContractsDirectory": "",
+  // "solidity.packageDefaultDependenciesDirectory": "",
+  "solidity.validationDelay": 1500
+}
