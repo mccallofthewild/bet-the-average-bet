@@ -12,9 +12,6 @@ Possible Solutions:
   * Possible attack vector = If bid amount is capped in order to prevent [attritional warfare](https://en.wikipedia.org/wiki/War_of_attrition_(game)), someone could bid the mean of the factorial of the max bid, then bid most of the bids below that.
 
 ## Considerations
-- If it's too complex, no one will play it.
-  - which is a better game - chess or flappy bird? (A crude crude comparison, but a serious epistemological consideration)
-- Stick with the original classic game as closely as possible
 ### Payment process:
 - [x] Bid _is_ payment: - bids are public anyway. why not.
 - [ ] Staking -  use in-contract proof of stake to validate participants, with separate methods for staking 
@@ -41,3 +38,7 @@ Possible Solutions:
 - [x] percentage of pot
 ###  Winner Calculation:
 - [ ] remove lowest & highest bids?
+### Marketing 
+- If it's too complex, no one will play it.
+  - which is a better game - chess or flappy bird? (A crude crude comparison, but a serious epistemological consideration)
+- Stick with the original classic game as closely as possible
