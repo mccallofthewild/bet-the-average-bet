@@ -6,12 +6,21 @@ The primary source code can be found in [contracts/BidTwoThirdsTheAverageBid.sol
 In short, it is a Solidity Smart Contract which takes bids and, every X minutes, sends the entire pot to the person who bid the closest to the 2/3 average bid.
 
 ## Vulnerabilities
+
+### Flash Loans 
+After initially allowing their targets to place bets, attackers could:
+* Send a high volume of high-quantity bets via a flash loan, immediately ending any game capped by pot size or bet count
+* Utilize all unique bids remaining for [unique-bid](https://en.wikipedia.org/wiki/Unique_bid_auction) auction variant
+
 ### Spam betting 
 Attackers can send a high volume of low bids and deviate the average to zero, thus disincentivizing higher bids. 
 Possible Solutions: 
 * Make the minimum bid amount a certain % of the pot.
 * Unique bids at a certain precision 
   * Possible attack vector = If bid amount is capped in order to prevent [attritional warfare](https://en.wikipedia.org/wiki/War_of_attrition_(game)), someone could bid the mean of the factorial of the max bid, then bid most of the bids below that.
+
+### Transaction Racing
+Attackers could watch for new transactions being signed on the network, update their bets, and beat them to the punch by attaching a higher gas fee to their transactions. Similar to a strategy used by arbitrage traders on Ethereum DEX's.
 
 ## Considerations
 ### Payment process:
