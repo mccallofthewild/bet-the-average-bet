@@ -17,6 +17,9 @@
 
 The goal of this project is to create an experimental implementation of Game Theory's classic <a href="https://en.wikipedia.org/wiki/Guess_2/3_of_the_average">"Guess 2/3 of the Average"</a> on Ethereum as a smart contract. I wrote this code in October 2018, inspired by <a href="https://fomo3d.hostedwiki.co/pages/Fomo3D%20Explained">FOMO3D</a> and the open <a href="https://oyc.yale.edu/economics/econ-159">Yale University Game Theory Course</a> which first introduced me to the game.
 
+<blockquote>Bonus: An experimental implementation of <a href="https://en.wikipedia.org/wiki/Prisoner%27s_dilemma#:~:text=The%20prisoner's%20dilemma%20is%20a,working%20at%20RAND%20in%201950.">The Prisoner's Dilemma</a> is also included in <a href="https://github.com/mccallofthewild/bet-the-average-bet/blob/master/inactive-contracts/PrisonersDilemma.sol">inactive-contracts/PrisonersDilemma.sol</a>
+</blockquote>
+
 # Attack Vectors
 
 ## ⚡️ Flash Loans 
