@@ -54,7 +54,7 @@ Attackers could watch for new transactions being signed on the network, update t
 - [x] Unique? - discourages spamming
 - [ ] Capped range? e.g. 0<=>100 - if unique and capped, the game is halted after 100 bids
 - [ ] Dynamic capped range? e.g. 0<==>Average Bid - interesting, but possibly too complex
-- [+] Uncapped? e.g. 0< - possibly gives upper hand to rich people
+- [+] Dynamic uncapped range? e.g. 0< - possibly gives upper hand to rich people
 - [ ] Updateable? - decreases the effectiveness of bid-spamming
 ## 🧾 Fees:
 - [x] percentage of pot
