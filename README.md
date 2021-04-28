@@ -52,19 +52,19 @@ Attackers could watch for new transactions being signed on the network, update t
 - [ ] Dynamic: game ends once pot reaches 100x the average.
 - [ ] Dynamic: Has worked well with FOMO3D
 ## 🎯 Target Bid:
-- [x] 2/3 the average? - deviates to zero - sticks to original
-- [ ] Double the average? - deviates to ethereum total supply || bid cap
+- [x] 2/3 the average: deviates to zero - sticks to original
+- [ ] Double the average: deviates to ethereum total supply || bid cap
 ## ✉️ Bid attributes:
-- [x] Unique? - discourages spamming
-- [ ] Capped range? e.g. 0<=>100 - if unique and capped, the game is halted after 100 bids
-- [ ] Dynamic capped range? e.g. 0<==>Average Bid - interesting, but possibly too complex
-- [x] Dynamic uncapped range? e.g. 0< - possibly gives upper hand to rich people
-- [ ] Updateable? - decreases the effectiveness of bid-spamming
+- [x] Unique: discourages spamming
+- [ ] Capped range e.g. 0<=>100: if unique and capped, the game is halted after 100 bids
+- [ ] Dynamic capped range e.g. 0<==>Average Bid: interesting, but possibly too complex
+- [x] Dynamic uncapped range e.g. 0< - possibly gives upper hand to wealthier players
+- [ ] Updateable: decreases the effectiveness of bid-spamming
 ## 🧾 Fees:
 - [x] percentage of pot
 ## 🥇 Winner Calculation:
-- [ ] remove lowest & highest bids?
+- [ ] remove lowest & highest bids
 ## 🧘‍♀️ Simplicity:
 - If it's too complex, no one will play it.
-  - which is a better game - chess or flappy bird? (A crude crude comparison, but a serious epistemological consideration)
+  - which is a better game - chess or flappy bird? (A crude crude comparison, but something epistemological to consider)
 - Stick with the original classic game as closely as possible
