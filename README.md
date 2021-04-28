@@ -29,6 +29,7 @@ After initially allowing their targets to place bets, attackers could:
 
 ## 🥩 Spam betting 
 Attackers can send a high volume of low bids and deviate the average to zero, thus disincentivizing higher bids. 
+
 Possible Solutions: 
 * Make the minimum bid amount a certain % of the pot.
 * Unique bids at a certain precision 
